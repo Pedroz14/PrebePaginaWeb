@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<!--Tarea 3 web. Manejo de etiquetas nav, img, article  Lopez Coria Pedro -->
+
+<html>
+	
+	<head>
+		<meta charset="UTF-8">   <!--codificacion-->
+		<br><br>
+		<title>Mi Pagina web, ahora con estilos CSS</title>
+		<br>
+		
+		<style>
+			body{
+			  background-color:#CEE3F6;
+			  font: oblique 120% sans-serif bold;
+			}
+			
+			header{
+			  background-color:#FE2E2E;
+			  color:#EFF5FB;
+			}
+			
+			#uno{
+			  float:left;
+			}
+			
+			#dos{
+			 float:right;
+			}
+			
+			#texto{
+			 clear:both;
+			}
+			
+			footer{
+			  font-size:12px;
+			  font:100% sans-serif;
+			  text-align:center;
+			  background-color:#F78181;
+			}
+
+			
+		
+		</style>
+		
+	</head>
+	
+	<body>
+		<header>	
+		
+		<p>Este es un mensaje principal en mi pagina web ¡Hola usuario!</p>
+		<nav>
+			<ul>
+				<li><h3>Elemento de Barra de Navegacion 1</h3></li>
+				<li><h3>Elemento de Barra de Navegacion 2</h3></li>
+				<li><h3>Elemento de Barra de Navegacion 3</h3></li>
+			</ul>
+		</nav>
+		
+		</header>
+		
+		<div id="uno">
+				<table border="6" cellspacing="3" cellpadding="3">
+					<thead>
+						<th>Software</th>
+						<th>Hardware</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td><img src="img/soft1.png" height="100" width="100"></td>
+							<td><img src="img/hw1.jpg" height="100" width="100"></td>
+						</tr>
+						<tr>
+							<td><img src="img/soft2.jpg" height="100" width="100"></td>
+							<td><img src="img/hw2.jpg" height="100" width="100"></td>
+						</tr>
+						<tr>
+							<td><img src="img/soft3.jpg" height="100" width="100"></td>
+							<td><img src="img/hw3.jpg" height="100" width="100"></td>
+						</tr>
+					</tbody>
+				</table>
+		</div>
+			<article>
+				<br><br><br>
+				<div id="dos">
+					<table width="575" border="2" cellspacing="2">
+						<tr align="center" valign="middle"> 
+							<th colspan="4">La computadora</th>
+						</tr>
+						<tr align="center" valign="middle"> 
+							<th rowspan="2">Elemento</th>
+							<th colspan="2">Hw</th>
+							<th rowspan="2">Sw</th>
+						</tr>
+						<tr align="center" valign="middle"> 
+							<th>C interno</th>
+							<th>C externo</th>
+						</tr>
+						<tr align="center" valign="middle"> 
+							<td>Tamaño</td>
+							<td>muy pequeño</td>
+							<td>mediano</td>
+							<td>comparable<br>logicamente</td>
+						</tr>
+						<tr align="center" valign="middle"> 
+							<td>Precio</td>
+							<td colspan="2">Relativamente bajo</td>
+							<td>alto y bajo</td>
+						</tr>
+							<tr align="center" valign="middle"> 
+							<td>Licencia</td>
+							<td colspan="2">diseño propietario</td>
+							<td>libre y propietario</td>
+						</tr>
+					</table>
+				</div>
+			</article>
+			
+			<article>
+			<p id="texto">
+			<br><h2>Sobre el Hardware y Software</h2><br><br>
+			El hardware es la parte física de un ordenador o sistema informático, está formado por los componentes eléctricos, electrónicos, electromecánicos y mecánicos, 
+			tales como circuitos de cables y circuitos de luz, placas, utensilios, cadenas y cualquier otro material, en estado físico, que sea necesario para hacer que el 
+			equipo funcione. El término viene del Inglés, significa partes duras.<br><br>
+
+			El hardware es básicamente utilizado por las computadoras y aparatos electrónicos. Cualquier parte del equipo, como llaves, cerraduras, cadenas y piezas de la 
+			computadora en sí, se llama hardware. El hardware no se limita a los ordenadores personales, también se dispone en los automóviles, teléfonos móviles, cámaras, 
+			robots, etc.<br><br>
+			
+			Software es un término informático que hace referencia a un programa o conjunto de programas de cómputo que incluye datos, procedimientos y pautas y que permite 
+			realizar distintas tareas en un sistema informático.<br>
+			
+			Comúnmente se utiliza este término para referirse de una forma muy genérica a los programas de un dispositivo informático.
+			</p>
+			
+			
+			</article>
+			
+		<div name="tres">
+			<article>
+				<br><br><br>
+				<table border="8" cellspacing="3" cellpadding="4">
+					<thead>
+						<th>Software</th>
+						<th>Hardware</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Chrome</td>
+							<td>Monitor</td>	
+						</tr>
+						<tr>
+							<td>Prebeplayer</td>
+							<td>CPU</td>
+						</tr>
+						<tr>
+							<td>Clase Teclado de Paty</td>
+							<td>Teclado</td>
+						</tr>
+					</tbody>
+				</table>
+			</article>
+		</div>
+		<br><br><br>
+		
+		<footer>
+		<p>Este es el pie de pagina de esta super pagina web, la cual no dice mucho aun asi:<br><br>
+		Página realizada por la sobre explotacion de prebes PROTECO todos los derechos reservados<br>
+		Las imagenes y texto que aparecen en la pagina son propiedad de sus autores (obvio)<br>
+		Alimentate Sanamente Fumar es causa de cancer<br>
+		Ciudad Universitaria - Facultad de Ingenieria UNAM</p>
+		</footer>
+	
+	</body>
+</html>
