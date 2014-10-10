@@ -1,0 +1,41 @@
+			body{
+			  background: linear-gradient(#0B0B61,#81BEF7);
+			  font: oblique 120% sans-serif bold;
+			  box-shadow: 2px 2px 2px;
+			}
+			
+			header{
+			  background-color:#FE2E2E;
+			  color:#EFF5FB;
+			  border-radius: 5px;
+			  box-shadow: 3px 3px 3px;
+			}
+			
+			nav li{
+			list-style-type:none;
+			}
+			
+			#uno{
+			  float:left;
+			}
+			
+			#dos{
+			 float:right;
+			}
+			
+			#texto{
+			 clear:both;
+			}
+			
+			table{
+				border:#FF4000 5px solid;!important
+				color:#A9F5F2;
+			}
+			
+			footer{
+			  font-size:12px;
+			  font:100% sans-serif;
+			  text-align:center;
+			  background-color:#F78181;
+			  border-radius: 9px
+			}
