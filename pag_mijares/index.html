@@ -1,0 +1,203 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<title>Pagina Web con bootstrap</title>
+	</head>
+	
+	<body>
+	
+	<!--un poco de estilo pa que se vea mejor-->
+	<style>
+		body{
+		  background-color:#F5FAFF;
+		}
+		
+		.jumbotron{
+		  background-color:#C2E0FF;
+		  border-radius: 45px;
+		}
+		
+		.navbar navbar-default{
+		  background-color:#94DBFF;
+		}
+		
+	
+	</style>
+	
+	<!--insertamoos un nav de bootstrap-->
+	
+	<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Prebes Rules</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Inicio</a></li>
+        <li><a href="#">Contactos</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nosotros <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Busquele Hijo">
+        </div>
+        <button type="submit" class="btn btn-default">Enviar</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Enlaca a la Nada</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	
+	
+	<!--codigo que introduce una barra de login-->
+	
+	    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Inicio de Sesion</a>
+        </div>
+        <center>
+            <div class="navbar-collapse collapse" id="navbar-main">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Hacia la Nada</a>
+                    </li>
+                    <li><a href="#">Aca Menos</a>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="username" placeholder="Usuario">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="password" placeholder="Contrasenia">
+                    </div>
+                    <button type="submit" class="btn btn-default">Iniciar Sesion</button>
+                </form>
+            </div>
+        </center>
+    </div>
+</div>
+	
+	<!--un pequeño jumbotron para alegrar la pagina-->
+	
+	<div class="jumbotron">
+  <h1>Nezahualcoyotl...</h1>
+  <p>Amo el canto del zenzontle,<br>Pajaro de cuatrocientas voces.<br><br>Amo el color del jade<br>Y el enervante perfume de las flores,<br>Pero mas amo a mi hermano: El Hombre.</p>
+  <p><a class="btn btn-primary btn-lg" role="button">Si Mola</a></p>
+</div>
+
+	<!--mi formulario de registro -->
+
+	<div class="container">
+	<div class="row">
+        <div class="col-sm-12">
+            <legend>Ingresa Usuarios</legend>
+        </div>
+        <!-- panel preview -->
+        <div class="col-sm-5">
+            <h4>Datos Requeridos:</h4>
+            <div class="panel panel-default">
+                <div class="panel-body form-horizontal payment-form">
+                    <div class="form-group">
+                        <label for="concept" class="col-sm-3 control-label">Nombre</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="concept" name="concept">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="description" class="col-sm-3 control-label">Correo</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="description" name="description">
+                        </div>
+                    </div> 
+                    <div class="form-group">
+                        <label for="amount" class="col-sm-3 control-label">Contrasenia</label>
+                        <div class="col-sm-9">
+                            <input type="password" class="form-control" id="amount" name="amount">
+                        </div>
+                      <br>
+                    <div class="form-group">
+                        <div class="col-sm-12 text-right">
+                            <button type="button" class="btn btn-default preview-add-button">
+                                <span class="glyphicon glyphicon-plus"></span> Ingresar Registro
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+	</div>
+</div>
+
+	<!--por ultimo un elemento footer-->
+	<div class="container text-center">
+    <hr />
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="#">Acerca de Proteco</a></li>
+          <li><a href="#">Faisbuc</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="#">Bootstrap</a></li>
+          <li><a href="#">Bootsnipp</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="#">Lab IBM</a></li>
+          <li><a href="#">Prebecarious</a></li>          
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="#">Ayuda</a></li>
+          <li><a href="#">Otro Mas</a></li>
+        </ul>
+      </div>  
+    </div>
+  </div>
+  <hr>
+    <div class="row">
+        <div class="col-lg-12">
+            <ul class="nav nav-pills nav-justified">
+                <li><a href="/">© 2014 Proteco todos los derechos resevados.</a></li>
+                <li><a href="#">Terminos de Servicio</a></li>
+                <li><a href="#">Privacidad</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+	</body>
+
+</html>
